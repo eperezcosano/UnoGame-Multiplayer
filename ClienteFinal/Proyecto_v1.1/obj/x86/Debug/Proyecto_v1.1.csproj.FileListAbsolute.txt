@@ -1,0 +1,15 @@
+C:\Users\IEUser\AppData\Local\Temporary Projects\Proyecto_v1.1\bin\Debug\Proyecto_v1.1.exe
+C:\Users\IEUser\AppData\Local\Temporary Projects\Proyecto_v1.1\bin\Debug\Proyecto_v1.1.pdb
+C:\Users\IEUser\AppData\Local\Temporary Projects\Proyecto_v1.1\obj\x86\Debug\Proyecto_v1._1.ClienteForm.resources
+C:\Users\IEUser\AppData\Local\Temporary Projects\Proyecto_v1.1\obj\x86\Debug\Proyecto_v1._1.Properties.Resources.resources
+C:\Users\IEUser\AppData\Local\Temporary Projects\Proyecto_v1.1\obj\x86\Debug\Proyecto_v1.1.csproj.GenerateResource.Cache
+C:\Users\IEUser\AppData\Local\Temporary Projects\Proyecto_v1.1\obj\x86\Debug\Proyecto_v1.1.exe
+C:\Users\IEUser\AppData\Local\Temporary Projects\Proyecto_v1.1\obj\x86\Debug\Proyecto_v1.1.pdb
+C:\Users\IEUser\Desktop\Proyecto_v1.1\Proyecto_v1.1\obj\x86\Debug\Proyecto_v1.1.exe
+C:\Users\IEUser\Desktop\Proyecto_v1.1\Proyecto_v1.1\obj\x86\Debug\Proyecto_v1.1.pdb
+C:\Users\IEUser\Desktop\Proyecto_v1.1\Proyecto_v1.1\bin\Debug\Proyecto_v1.1.exe
+C:\Users\IEUser\Desktop\Proyecto_v1.1\Proyecto_v1.1\bin\Debug\Proyecto_v1.1.pdb
+C:\Users\IEUser\Desktop\Proyecto_v1.1\Proyecto_v1.1\obj\x86\Debug\Proyecto_v1._1.ClienteForm.resources
+C:\Users\IEUser\Desktop\Proyecto_v1.1\Proyecto_v1.1\obj\x86\Debug\Proyecto_v1._1.Properties.Resources.resources
+C:\Users\IEUser\Desktop\Proyecto_v1.1\Proyecto_v1.1\obj\x86\Debug\Proyecto_v1.1.csproj.GenerateResource.Cache
+C:\Users\IEUser\Desktop\Proyecto_v1.1\Proyecto_v1.1\obj\x86\Debug\Proyecto_v1.1.csprojResolveAssemblyReference.cache

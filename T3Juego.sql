@@ -1,0 +1,42 @@
+DROP DATABASE IF EXISTS T3Juego;
+CREATE DATABASE T3Juego;
+USE T3Juego;
+
+CREATE TABLE Jugador (
+	Username VARCHAR(20) PRIMARY KEY NOT NULL,
+	Password VARCHAR(20) NOT NULL
+) ENGINE = InnoDB;
+
+CREATE TABLE Partida (
+	Id 	INTEGER PRIMARY KEY NOT NULL,
+	Fecha		VARCHAR(20) NOT NULL,
+	Duracion	INTEGER NOT NULL,
+	Ganador		VARCHAR(20) NOT NULL
+) ENGINE = InnoDB;
+
+CREATE TABLE Relacion (
+	Username	VARCHAR(20) NOT NULL,
+	IdP		INTEGER NOT NULL,
+	Puntuacion	INTEGER NOT NULL,
+	FOREIGN KEY (Username) REFERENCES Jugador(Username),
+	FOREIGN KEY (IdP) REFERENCES Partida(Id)
+) ENGINE = InnoDB;
+
+INSERT INTO Jugador VALUES('Laia', 'LLL');
+INSERT INTO Jugador VALUES('Reva', 'RRR');
+INSERT INTO Jugador VALUES('Izan', 'III');
+
+INSERT INTO Partida VALUES(1, '06/03/2018', 13, 'Izan');
+INSERT INTO Partida VALUES(2, '06/03/2018', 25, 'Izan');
+INSERT INTO Partida VALUES(3, '07/03/2018', 18, 'Laia');
+INSERT INTO Partida VALUES(4, '07/03/2018', 32, 'Reva');
+
+INSERT INTO Relacion VALUES('Reva', 1, 10);
+INSERT INTO Relacion VALUES('Laia', 1, 13);
+INSERT INTO Relacion VALUES('Izan', 1, 14);
+INSERT INTO Relacion VALUES('Izan', 2, 32);
+INSERT INTO Relacion VALUES('Laia', 2, 24);
+INSERT INTO Relacion VALUES('Laia', 3, 33);
+INSERT INTO Relacion VALUES('Reva', 3, 11);
+INSERT INTO Relacion VALUES('Izan', 4, 34);
+INSERT INTO Relacion VALUES('Reva', 4, 37);
